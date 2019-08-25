@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+
+body {
+  background-image: url(https://i.redd.it/6io9bdnhsj611.png);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar {
+  height: 7vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  align-items: center; 
+  background-color: rgb(34, 34, 34);
+  
+}
+
+
+.home-button {
+  background-color: transparent;
   color: white;
+  font-size: 2.5vw;
+  font-size: 2.5vh;
+  border-radius: 15px;
+  font-family: 'Livvic', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servers-button, .kits-button, .contact-button {
+  background-color: transparent;
+  color: white;
+  font-size: 2.5vw;
+  font-size: 2.5vh;
+  border-radius: 15px;
+  font-family: 'Livvic', sans-serif;
 }
+
+.middle-front-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100vw;
+}
+
+.middle-front-page-info {
+  height: 20vh;
+  width: 45vw;
+  text-align: center;
+  
+}
+
